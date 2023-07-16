@@ -1,0 +1,35 @@
+header {}
+header .h_top_bg {background-color:#005848;}
+header .h_top_bg .h_top {
+    height:50px; padding:0 20px; margin:0 auto; display:flex; flex-flow:row nowrap; justify-content:space-between; align-items:center;
+}
+header .h_top_bg .h_top a {}
+header .h_top_bg .h_top a i {font-size:2rem; color:#fff;}
+header .h_btm {padding:70px 0; width:1300px; margin:0 auto;}
+header .h_btm h1 {width:320px; height:55px; margin:0 auto;}
+header .h_btm h1 a img {width:100%; height:100%;}
+main {width:1300px; margin:0 auto;}
+main form {}
+main form fieldset {
+    display:flex; flex-flow:column; width:500px; margin:0 auto;
+}
+main form fieldset legend {}
+main form fieldset #login { border-bottom:1px solid #919191; height:80px; }
+main form fieldset #login::placeholder {font-size:1.2rem; letter-spacing:-0.02em;}
+main form fieldset #pw { border-bottom:1px solid #919191; height:80px; margin-bottom:20px;}
+main form fieldset #pw::placeholder {font-size:1.2rem; letter-spacing:-0.02em;}
+main form fieldset #save_id {}
+main form fieldset label {
+    margin-bottom:20px;
+}
+main form fieldset label #save_id {}
+main form fieldset label span {font-size:1.2rem; letter-spacing:-0.02em;}
+main form fieldset #login_btn {
+    width:500px; height:50px; backgroubnd-color:#eee;
+    margin-bottom:15px;
+}
+main #join {
+    display:block;
+    width:500px; height:50px; background-color:#eee; margin:0 auto; 
+    line-height:50px; text-align:center;
+}
